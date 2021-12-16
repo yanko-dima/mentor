@@ -1,6 +1,178 @@
+/* Main colors */
+root {
+  /* Text colors */
+  --pramery-site-color: #000000;
+  --secondary-site-color: #f7941e;
+  --third-site-color: #ffffff;
 
+  /* Background Colors */
+  --primary-bg-color: #ffffff;
+  --secondary-bg-color: #f1f1f2;
+  --third-bg-color: #fafafa;
+
+  /* Font family ??? */
+  --pramery-font: "Roboto";
+  --second-font: "Homemade Apple";
+}
+
+/* All Site Sets */
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+  font-size: 18px;
+  line-height: 1.4;
+  font-weight: normal;
+  font-style: normal;
+  font-family: "Roboto", "Arial", sans-serif;
+
+  color: var(--pramery-site-color);
+  background-color: var(--primary-bg-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+/* Site Style Set */
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--pramery-site-color);
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+
+  outline: 2px solid #ddd;
+}
+
+.button {
+  text-decoration: none;
+  /* color: var(--secondary-site-color); */
+}
+
+.sub-title {
+}
+
+/* Header section */
+.header {
+}
+
+.logo {
+  text-decoration: none;
+  font-family: "Homemade Apple";
+  color: var(--pramery-site-color);
+}
+
+.nav-item {
+}
+
+/* Hero section */
+.hero {
+}
+
+.hero-content {
+}
+
+.hero-title {
+}
+
+.hero-img-wrapper {
+}
+
+.hero-img-wrapper img {
+  display: block;
+}
+/* How we work section */
+.how-work {
+}
+
+.how-work-img-wrapper {
+}
+
+.how-work-img-wrapper img {
+  display: block;
+}
+
+.how-work-content {
+}
+
+.how-work-title {
+}
+
+/* Gifts section */
+.gifts {
+}
+
+.gifts-title {
+}
+
+.gifts-list {
+}
+
+.gifts-item {
+}
+
+.gifts-item-img {
+  display: block;
+}
+
+.gifts-item-title {
+}
+
+/* Ready to get section */
+.to-started {
+}
+
+.to-started-title {
+}
+
+.to-started-text {
+}
+
+.to-started-links {
+}
+
+/* Blogs section */
+.blogs {
+}
+
+.blogs-title {
+}
+
+.blogs-header {
+  /* background-color: #000; */
+}
+
+.blogs-header-img {
+  display: block;
+}
+
+.gifts-item {
+}
+
+.blogs-secondary-title {
+}
+
+/* Footer section */
+.footer {
 }
