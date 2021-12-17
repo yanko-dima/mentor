@@ -15,16 +15,19 @@
     <!-- Header section -->
     <header class="header">
         <div class="container">
-            <nav>
-                <a class="logo" href="">logo</a>
-                <ul class="list">
-                    <li class="nav-item">Home</li>
-                    <li class="nav-item">About Us</li>
-                    <li class="nav-item">Services</li>
-                    <li class="nav-item">Blogs</li>
-                </ul>
-                <a class="button" href="">Gift Finder</a>
+
+            <a class="logo" href="">logo</a>
+
+            <nav>                
+                <ul class="nav-menu-list list">
+                    <li class="nav-item"><a class="link" href="">Home</a></li>
+                    <li class="nav-item"><a class="link" href="">About Us</a></li>
+                    <li class="nav-item"><a class="link" href="">Services</a></li>
+                    <li class="nav-item"><a class="link" href="">Blogs</a></li>
+                </ul>                
             </nav>
+
+            <a class="btn" href="">Gift Finder</a>
         </div>
     </header>
 
@@ -38,7 +41,7 @@
                 <div class="hero-content">
                     <h1 class="hero-title">Find a gift for your wife or girlfriend</h1>
                     <p class="sub-title">Struggling to find a gift for your wife or girlfriend? No problem!</p>
-                    <a href="" class="button">Find gift now</a>
+                    <a href="" class="btn secondary-btn">Find gift now</a>
                 </div>
                 
                 <div class="hero-img-wrapper">
@@ -63,7 +66,7 @@
                         is take our short survey that only takes seconds, and our proprietary algorithm will match you with a few perfect
                         gift
                         options.</p>
-                        <a href="" class="button">Learn More</a>
+                        <a href="" class="btn thid-btn">Learn More</a>
                 </div>
             
             </div>
@@ -73,33 +76,49 @@
         <section class="gifts">
             <div class="container">
 
-                <h2 class="gifts-title">Gifts for all Occasions</h2>
-                <p>“Try our web app to find the best gifts for all occasions”</p>
+                <h2 class="section-title">Gifts for all Occasions</h2>
+                <p class="section-sub-title">“Try our web app to find the best gifts for all occasions”</p>
 
                 <ul class="list">
 
                     <li class="gifts-item">
                         <img src="./images/gift1.jpg" alt="Воздушный шар" class="gifts-item-img">
-                        <h3 class="gifts-item-title">Birthday</h3>
-                        <a href="" class="link">See More ›</a>
+
+                        <div class="gifts-item-content">
+                            <h3 class="gifts-item-title">Birthday</h3>
+                            <a href="" class="link">See More ›</a>
+                        </div>
+                        
                     </li>
 
                     <li class="gifts-item">
                         <img src="./images/gift2.jpg" alt="Босоножки и цветы" class="gifts-item-img">
-                        <h3 class="gifts-item-title">Anniversary</h3>
-                        <a href="" class="link">See More ›</a>
+
+                        <div class="gifts-item-content">
+                            <h3 class="gifts-item-title">Anniversary</h3>
+                            <a href="" class="link">See More ›</a>
+                        </div>
+                        
                     </li>
 
                     <li class="gifts-item">
                         <img src="./images/gift3.jpg" alt="Подарочные стикеры" class="gifts-item-img">
-                        <h3 class="gifts-item-title">Valentine's Day</h3>
-                        <a href="" class="link">See More ›</a>
+
+                        <div class="gifts-item-content">
+                            <h3 class="gifts-item-title">Valentine's Day</h3>
+                            <a href="" class="link">See More ›</a>
+                        </div>
+                        
                     </li>
 
                     <li class="gifts-item">
                         <img src="./images/gift4.jpg" alt="Новогодние игрушки на елке" class="gifts-item-img">
-                        <h3 class="gifts-item-title">Christmas</h3>
-                        <a href="" class="link">See ›</a>
+
+                        <div class="gifts-item-content">
+                            <h3 class="gifts-item-title">Christmas</h3>
+                            <a href="" class="link">See ›</a>
+                        </div>
+                        
                     </li>
                     
                 </ul>
@@ -110,12 +129,14 @@
         <!-- Ready to get section -->
         <section class="to-started">
             <div class="container">
-                <h2 class="to-started-title">Ready to get started?</h2>
-                <p class="to-started-text">Sign up or contact us</p>
+                <div class="to-started-content">
+                    <h2 class="to-started-title">Ready to get started?</h2>
+                    <p class="to-started-text">Sign up or contact us</p>
+                </div>                
 
                 <div class="to-started-links">
-                    <a href="" class="button">Find gift now</a>
-                    <a href="" class="button">how it works</a>
+                    <a href="" class="btn fourth-btn">Find gift now</a>
+                    <a href="" class="btn five-btn">how it works</a>
                 </div>
 
             </div>
@@ -125,24 +146,27 @@
         <section class="blogs">
             <div class="container">
 
-                <h2 class="blogs-title">Our Best Blogs Ever</h2>
-                <p>“Try our blog to find the best tips and tricks to select your gift”</p>
+                <h2 class="section-title">Our Best Blogs Ever</h2>
+                <p class="section-sub-title">“Try our blog to find the best tips and tricks to select your gift”</p>
 
                 <div class="blogs-header">
                     <img src="./images/blog.jpg" alt="" class="blogs-header-img">
 
-                    <p>Mr. John Doe</p>
-                    <p>The best way to wish your wife</p>
-                    <p>Read More</p>
+                    <div class="blogs-header-content">
+                        <p>Mr. John Doe</p>
+                        <p>The best way to wish your wife</p>
+                        <a class="link" href="">Read More</a>
+                    </div>
+                    
                 </div>
 
                 <ul class="list">
-                    <li class="gifts-item">
-                        <h3 class="blogs-secondary-title">Database to find the gifts for your girlfriend</h3>
+                    <li class="blogs-item">
+                        <h3 class="blogs-secondary-title">Database to find the gifts for your<br> girlfriend</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore...</p>
                         <a href="" class="link">Read More</a>
                     </li>
-                    <li class="gifts-item">
+                    <li class="blogs-item">
                         <h3 class="blogs-secondary-title">How Artificial Intelligence read your mind to find the best gift</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore...</p>
                         <a href="" class="link">Read More</a>
@@ -157,20 +181,48 @@
     <!-- Footer section -->
     <footer class="footer">
         <div class="container">
-            <ul class="list">
-                <li><a class="link" href="">Home</a></li>
-                <li><a class="link" href="">About</a></li>
-                <li><a class="link" href="">logo</a></li>
-                <li><a class="link" href="">Service</a></li>
-                <li><a class="link" href="">Blog</a></li>
+            <ul class="footer-menu list">
+                <li class="footer-menu-item"><a class="link" href="">Home</a></li>
+                <li class="footer-menu-item"><a class="link" href="">About</a></li>
+                <li class="footer-menu-item"><a class="link" href="">logo</a></li>
+                <li class="footer-menu-item"><a class="link" href="">Service</a></li>
+                <li class="footer-menu-item"><a class="link" href="">Blog</a></li>
             </ul>
 
-            <ul class="list">
-                <li><a href="">svg</a></li>
-                <li><a href="">svg</a></li>
-                <li><a href="">svg</a></li>
-                <li><a href="">svg</a></li>
-                <li><a href="">svg</a></li>
+            <div class="footer-line"></div>
+
+            <ul class="smm-icon-list list">
+
+                <li class="smm-icon-item"><a href="">
+                    <svg class="icon">
+                        <use href="./images/symbol-defs.svg#facebook"></use>
+                    </svg>
+                </a></li>
+
+                <li class="smm-icon-item"><a href="">
+                    <svg class="icon">
+                        <use href="./images/symbol-defs.svg#twitter"></use>
+                    </svg>
+                </a></li>
+
+                <li class="smm-icon-item"><a href="">
+                    <svg class="icon">
+                    <use href="./images/symbol-defs.svg#instagram"></use>
+                </svg>                
+                </a></li>
+
+                <li class="smm-icon-item"><a href="">
+                    <svg class="icon">
+                        <use href="./images/symbol-defs.svg#youtube"></use>
+                    </svg>
+                </a></li>
+
+                <li class="smm-icon-item"><a href="">
+                    <svg class="icon">
+                        <use href="./images/symbol-defs.svg#pinterest"></use>
+                    </svg>
+                </a></li>
+
             </ul>
 
             <p class="copyright">&copy; 2010 — 2020 Privacy — Terms</p>
